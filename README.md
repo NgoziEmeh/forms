@@ -1,2 +1,2 @@
 # Forms
-Different input form types for clients
+Different input form types for clients and businesses.
