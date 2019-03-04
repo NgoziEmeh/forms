@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formchallenge</title>
+</head>
+<body>
+    <p>
+        <h1>XYZ Limited</h1>
+    </p>
+    <form>
+        <fieldset style="width: 1200px">
+            <legend><h3>Business Registration Form</h3></legend>
+            <p>
+                    <label for="name"><strong>Business Name:</strong> </label>
+                    <input type="text" style="width: 1035px">
+            </p>
+            <p>
+                    <label for="reg"> <strong>CAC Registration Date:</strong></label>
+                    <input type="date" name="reg" id="reg" style="width: 400px">
+
+                    <label for="reg"> <Strong>CAC Registration State</Strong>:</label>
+                    <input type="text" name="state" id="state" style="width: 400px">
+            </p>
+            <p>
+                    <label for="address"><strong>Contact Address:</strong> </label>
+                    <input type="text" style="width: 1025px">
+            </p>
+             <p>
+                    <label for="webaddress"><strong>Website:</strong> </label>
+                    <input type="text" style="width: 1085px">
+                 
+             </p>
+             <p>
+                 <label for="email"> <strong>Company Email:</strong> </label>
+                 <input type="email" name="email" id="email" style="width: 260px">
+
+                 <label for="phone"><strong>Contact Phone Number:</strong> </label>
+                 <input type="tel" name="tel" id="tel" style="width: 260px">
+
+                 <label for="calltime"> <strong>Best Call Time:</strong> </label>
+                 <input type="datetime-local" name="calltime" id="calltime" style="width: 210px">
+
+
+             </p>
+             <p>
+                 <label for="summary"><strong>Briefly explain what your business does:</strong> </label>
+                 <textarea name="summary" id="summary" cols="150" rows="10"></textarea>
+             </p>
+            <fieldset>
+                <p><h4> Principal Director's Detail:</h4></p>
+                <p>
+                    <label for="title"><strong>Title:</strong> </label>
+                    <input type="radio" name="mr" id="mr"> Mr
+                    <input type="radio" name="mrs" id="mrs"> Mrs
+                    <input type="radio" name="miss" id="miss"> Miss
+                    <input type="radio" name="elder" id="elder"> Elder
+                </p>
+                <p>
+                    <label for="dname"><strong>Full Name:</strong> </label>
+                    <input type="text" style="width: 260px">
+
+                    <label for="age"><strong>Age:</strong> </label>
+                    <input type="number" style="width: 260px">
+
+                    <label for="position"><strong>Position in company:</strong> </label>
+                    <select name="position" id="position">
+                        <option value="md">MD</option>
+                        <option value="ceo">CEO</option>
+                        <option value="cto">CTO</option>
+                        <option value="cfo">CFO</option>
+                        <option value="pdl">Product Developer</option>
+                        <option value="nm">Not in management</option>
+                    </select>
+                     
+                 </p>
+
+                 <p>
+                        <label for="interest"><strong>Areas of interest:</strong> </label>
+                        <input type="checkbox" name="pd" id="pd"> Product Development 
+                        <input type="checkbox" name="finance" id="finance"> Finance 
+                        <input type="checkbox" name="it" id="it"> Technology 
+                        <input type="checkbox" name="marketing" id="marketing"> Marketing
+                        <input type="checkbox" name="ads" id="ads"> Advertising 
+                    </p>
+            </fieldset>
+            <br>
+            <br>
+            <br>
+            
+                <p>
+                   
+                    <input type="button" value="Submit">
+                    <input type="reset" value="Reset">
+                </p>        
+        </fieldset>
+        
+    </form>
+</body>
+</html>
